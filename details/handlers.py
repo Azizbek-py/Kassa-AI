@@ -157,7 +157,7 @@ async def photo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
                 message_link
             )
         )
-        await update.message.set_reaction("👍")
+        
         # print(f"✓ Background task started for: {tmp_path}")
             
     except Exception as e:
